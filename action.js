@@ -4,7 +4,6 @@ function addBasket(id)
         type: "POST",
         url: "addBasket.php",
         data: {"id": id},
-        dataType: "json",
         success: function(response){
         }
     });
